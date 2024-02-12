@@ -50,7 +50,7 @@ export const Todos = () => {
                         <button
                             onClick={removeDoneTodos}
                             className="button clear"
-                        >Remove Done Todos</button>
+                        >Remove Done Task</button>
                     ) : null    
                 }
             </div>
