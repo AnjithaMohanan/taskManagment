@@ -25,7 +25,7 @@ const TodoForm = () => {
     return (
         <form className="form" onSubmit={onFormSubmit}>
             <input  
-                placeholder="Enter new todo..."
+                placeholder="Enter new task..."
                 className="input"
                 onChange={onInputChange}
                 value={text}
